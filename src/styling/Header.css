@@ -8,6 +8,7 @@
 .header__logo {
     height: 40px;
     object-fit: contain;
+    color: red;
 }
 
 .header__icon {

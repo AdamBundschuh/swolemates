@@ -9,16 +9,15 @@ import {
   Link,
   createBrowserRouter,
 } from "react-router-dom";
+import Chats from "./components/Chats.js";
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CardComplete />} />
-
-          <Route path="chat" element={<h1>Chat Page</h1>} />
+          <Route path="chats" element={<Chats />} />
         </Routes>
       </BrowserRouter>
     </div>

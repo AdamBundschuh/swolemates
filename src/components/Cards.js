@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import TinderCard from "react-tinder-card";
 import "../styling/Cards.css";
 import database from '../firebase.js';
-import SwipeButtons from '../components/SwipeButtons.js';
 
 function Cards() {
   const [people, setPeople] = useState([]);
@@ -37,8 +36,6 @@ function Cards() {
           </TinderCard>
         ))}
       </div>
-
-      {/* <SwipeButtons /> */}
 
     </div>
   );
