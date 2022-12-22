@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from './Header.js'
+import ChatList from './ChatList.js'
 
 const Chats = () => {
   return (
     <div>
         
         <Header backButton="/" />
-        <h1>Chats Page</h1>
+        <ChatList />
         </div>
   )
 }
