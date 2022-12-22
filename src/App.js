@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import "./styling/App.css";
-import Cards from "./components/Cards";
+import CardComplete from "./components/CardsComplete";
 import {
   BrowserRouter,
   Routes,
@@ -16,7 +16,8 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Cards />} />
+          <Route path="/" element={<CardComplete />} />
+
           <Route path="chat" element={<h1>Chat Page</h1>} />
         </Routes>
       </BrowserRouter>
